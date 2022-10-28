@@ -19,11 +19,11 @@ import 'package:app_pasteles/presentation/home/widgets/title_appbar.dart';
 class HomePageApp extends StatelessWidget {
   const HomePageApp({Key key}) : super(key: key);
 
-  @override
+  @override 
   Widget build(BuildContext context) {
     return DefaultTabController(
       length: 4,
-      child: Scaffold(
+      child: Scaffold( 
         appBar: AppBar(
           title: CenterTitileCustom(),
           leading: LeadingCustomAppBar(),

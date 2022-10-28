@@ -21,7 +21,7 @@ class PrincipalPage extends StatelessWidget {
     return Scaffold(
       //me permite poner una pagina sobre otra con respecto a la navegacion del tab bar
       body: IndexedStack(
-        index:indexPage, //poner index,
+        index:indexPage, //poner inde x,
         children: [
           HomePageApp(),  
           FavoritePage(), 

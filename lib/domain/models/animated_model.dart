@@ -6,7 +6,7 @@ import 'package:flutter/material.dart';
 class AnimatedModelProvider extends ChangeNotifier{
   
   AnimationController _animationController; 
-  bool _isAnimated =  false; 
+  bool _isAnimated =  false;  
   bool _iscartColor = false; 
   int _countItems = 0 ; 
   AnimationController _animationDetail; 

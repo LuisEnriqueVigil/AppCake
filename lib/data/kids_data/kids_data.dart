@@ -3,7 +3,7 @@ class Item {
 
   String titleTorta; //nombre del pastel
   String description; // QUITAR
-  List<double> sizeDisp; // 3 tamaños disponibles 
+  List<double> sizeDisp; // 3 tamaños disponibles  
   double price; //precio
   List<String> cakeTipos; // 3 tipos de pastel interior
   String imageUrl;
